@@ -1,0 +1,57 @@
+.HomeBlogContainer {
+  width: 400px;
+  /* border: 1px solid black; */
+  margin: 20px;
+}
+
+.HomeBlogContainer > img {
+  /* border:  1px solid black; */
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.HomeBlogContainer > h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 5px 0px;
+}
+
+.HomeBlogContainer > p {
+  color: #6c757d;
+  padding: 5px 0px;
+}
+
+/* Form Css */
+
+.CreateBlogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+.BlogInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.BlogInputContainer > label {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.BlogInputContainer > input {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  padding: 0px 10px;
+}
+
+.CreateBlogform {
+  width: 900px;
+}
