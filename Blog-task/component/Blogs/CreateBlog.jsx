@@ -20,7 +20,7 @@ const CreateBlog = () => {
       formData.append("email", user.email);
 
       const response = await axios.post(
-        "http://localhost:5000/api/blog",
+        "https://design-script.vercel.app/api/blog",
         formData,
         {
           headers: {

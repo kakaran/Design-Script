@@ -8,7 +8,9 @@ const HomeBlogs = () => {
   useEffect(() => {
     const AllBlogsMethod = async () => {
       try {
-        const Data = await axios.get("http://localhost:5000/api/blog");
+        const Data = await axios.get(
+          "https://design-script.vercel.app/api/blog"
+        );
         if (Data) {
           console.log(Data);
           setAllBlogs(Data.data.blogs);
